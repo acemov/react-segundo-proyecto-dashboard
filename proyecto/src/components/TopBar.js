@@ -1,3 +1,5 @@
+import imagen from "../assets/images/jordan-walke.png"
+
 function Topbar() {
     return (
         <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
@@ -34,7 +36,7 @@ function Topbar() {
                 <li class="nav-item dropdown no-arrow">
                     <a class="nav-link dropdown-toggle" href="/" id="userDropdown">
                         <span class="mr-2 d-none d-lg-inline text-gray-600 small">Jordan Walke</span>
-                        <img class="img-profile rounded-circle" src="assets/images/jordan-walke.png" alt="Jordan Walke - Creador de React" width="60" />
+                        <img class="img-profile rounded-circle" src={imagen} alt="Jordan Walke - Creador de React" width="60" />
                     </a>
                 </li>
 
